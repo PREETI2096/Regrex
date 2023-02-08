@@ -7,6 +7,7 @@ public class TestMain {
 //		userRegistration.validFirstName();
 //		userRegistration.validLastName();
 //		userRegistration.validEmailId();
-		userRegistration.validPhoneNumber();
+	//	userRegistration.validPhoneNumber();
+		userRegistration.validPassword();
 	}
 }
