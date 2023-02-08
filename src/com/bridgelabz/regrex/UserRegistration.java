@@ -1,5 +1,4 @@
 package com.bridgelabz.regrex;
-
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -17,4 +16,17 @@ public class UserRegistration {
 			System.out.println("firstname is incorrect ");
 		}
 	}
+	public void validLastName() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the last name : ");
+		String lastName = sc.nextLine();
+
+		boolean fName = Pattern.matches("^[A-Z]{1}[a-zA-Z]{2,}$", lastName);
+
+		if (fName) {
+			System.out.println("lastname is correct ");
+		} else {
+			System.out.println("lastname is incorrect ");
+		}
+}
 }
