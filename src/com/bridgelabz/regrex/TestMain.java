@@ -6,5 +6,6 @@ public class TestMain {
 		UserRegistration userRegistration = new UserRegistration();
 		userRegistration.validFirstName();
 		userRegistration.validLastName();
+		userRegistration.validEmailId();
 	}
 }
