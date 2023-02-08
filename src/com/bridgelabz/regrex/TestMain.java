@@ -6,8 +6,8 @@ public class TestMain {
 		UserRegistration userRegistration = new UserRegistration();
 //		userRegistration.validFirstName();
 //		userRegistration.validLastName();
-//		userRegistration.validEmailId();
-	//	userRegistration.validPhoneNumber();
-		userRegistration.validPassword();
+		userRegistration.validEmailId();
+//	    userRegistration.validPhoneNumber();
+//	    userRegistration.validPassword();
 	}
 }
